@@ -201701,7 +201701,6 @@ GameObject:
   - component: {fileID: 893948680}
   - component: {fileID: 893948677}
   - component: {fileID: 893948676}
-  - component: {fileID: 893948681}
   m_Layer: 0
   m_Name: Camera (1)
   m_TagString: Untagged
@@ -201847,24 +201846,6 @@ MonoBehaviour:
   renderWidth: 1280
   targetFPS: 30
   jpegQuality: 100
---- !u!114 &893948681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893948674}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de2e286eb4d263746982bdcefed816ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WebRTCCameraStreamer
-  targetCamera: {fileID: 893948678}
-  cameraId: cam_1
-  resolutionWidth: 1280
-  resolutionHeight: 720
-  signalingHost: 127.0.0.1
-  signalingPort: 8081
 --- !u!1 &893981647 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2439409546964198977, guid: 297ca078e79ddb24291f363ffbe5e858, type: 3}
@@ -447418,7 +447399,6 @@ GameObject:
   - component: {fileID: 1930380868}
   - component: {fileID: 1930380867}
   - component: {fileID: 1930380866}
-  - component: {fileID: 1930380871}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -447564,24 +447544,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 22, y: -60, z: 0}
---- !u!114 &1930380871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930380864}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de2e286eb4d263746982bdcefed816ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WebRTCCameraStreamer
-  targetCamera: {fileID: 1930380869}
-  cameraId: cam_0
-  resolutionWidth: 1280
-  resolutionHeight: 720
-  signalingHost: 127.0.0.1
-  signalingPort: 8080
 --- !u!1 &1930604709 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5390708107834959029, guid: ff4a7f75f8b9536419a62119131141d1, type: 3}

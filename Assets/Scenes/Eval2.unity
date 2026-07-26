@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 976bcd93e1df5a746941069d1933e1de, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 4d533d1ea2362d94fb16992a300a35e2, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 6396e3f3c98748446861aa99c61de5c3, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -184792,7 +184792,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 0dd4ce4229847bb41abf543fedefba86, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 49fbcc1f95899064ea9a683118fc47bc, type: 2}
   m_TargetDisplay: 1
   m_TargetEye: 3
   m_HDR: 1
@@ -371109,8 +371109,8 @@ SceneRoots:
   - {fileID: 1813738959}
   - {fileID: 1090298740}
   - {fileID: 668858618}
-  - {fileID: 121869840}
   - {fileID: 1624473012}
+  - {fileID: 121869840}
   - {fileID: 464679030}
   - {fileID: 1708209400}
   - {fileID: 621565040}
